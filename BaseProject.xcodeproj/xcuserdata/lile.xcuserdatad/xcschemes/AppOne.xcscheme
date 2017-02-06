@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "24E49F8B1B55601600A0082C"
-               BuildableName = "AppOne.app"
-               BlueprintName = "AppOne"
-               ReferencedContainer = "container:AppOne.xcodeproj">
+               BuildableName = "BaseProject.app"
+               BlueprintName = "BaseProject"
+               ReferencedContainer = "container:BaseProject.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "24E49FA71B55601600A0082C"
-               BuildableName = "AppOneTests.xctest"
-               BlueprintName = "AppOneTests"
-               ReferencedContainer = "container:AppOne.xcodeproj">
+               BuildableName = "BaseProject.xctest"
+               BlueprintName = "BaseProjectTests"
+               ReferencedContainer = "container:BaseProject.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "24E49F8B1B55601600A0082C"
-            BuildableName = "AppOne.app"
-            BlueprintName = "AppOne"
-            ReferencedContainer = "container:AppOne.xcodeproj">
+            BuildableName = "BaseProject.app"
+            BlueprintName = "BaseProject"
+            ReferencedContainer = "container:BaseProject.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -70,9 +70,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "24E49F8B1B55601600A0082C"
-            BuildableName = "AppOne.app"
-            BlueprintName = "AppOne"
-            ReferencedContainer = "container:AppOne.xcodeproj">
+            BuildableName = "BaseProject.app"
+            BlueprintName = "BaseProject"
+            ReferencedContainer = "container:BaseProject.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -89,9 +89,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "24E49F8B1B55601600A0082C"
-            BuildableName = "AppOne.app"
-            BlueprintName = "AppOne"
-            ReferencedContainer = "container:AppOne.xcodeproj">
+            BuildableName = "BaseProject.app"
+            BlueprintName = "BaseProject"
+            ReferencedContainer = "container:BaseProject.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

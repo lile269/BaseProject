@@ -211,7 +211,7 @@
 		2460A6531B7AED730048B621 /* RegUserVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegUserVC.m; sourceTree = "<group>"; };
 		2463CEF41B5636BF0031B5C2 /* IntroductionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IntroductionViewController.h; path = Busniess/Introduction/ViewController/IntroductionViewController.h; sourceTree = "<group>"; };
 		2463CEF51B5636BF0031B5C2 /* IntroductionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IntroductionViewController.m; path = Busniess/Introduction/ViewController/IntroductionViewController.m; sourceTree = "<group>"; };
-		2463CF8F1B577F7D0031B5C2 /* AppOne.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppOne.pch; sourceTree = SOURCE_ROOT; };
+		2463CF8F1B577F7D0031B5C2 /* BaseProject.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseProject.pch; sourceTree = SOURCE_ROOT; };
 		2463CF961B580EDF0031B5C2 /* RegisterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterVC.h; sourceTree = "<group>"; };
 		2463CF971B580EDF0031B5C2 /* RegisterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterVC.m; sourceTree = "<group>"; };
 		2463CF981B580EDF0031B5C2 /* RegisterVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterVC.xib; sourceTree = "<group>"; };
@@ -323,8 +323,8 @@
 		24E14A3E1B7AD61000FAED14 /* BaseLoadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseLoadView.m; sourceTree = "<group>"; };
 		24E14A3F1B7AD61000FAED14 /* BaseNoDataView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNoDataView.h; sourceTree = "<group>"; };
 		24E14A401B7AD61000FAED14 /* BaseNoDataView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNoDataView.m; sourceTree = "<group>"; };
-		24E49F8C1B55601600A0082C /* AppOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		24E49FA81B55601600A0082C /* AppOneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppOneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24E49F8C1B55601600A0082C /* BaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24E49FA81B55601600A0082C /* BaseProject.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaseProject.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24E49FAD1B55601600A0082C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24E49FAE1B55601600A0082C /* AppOneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppOneTests.m; sourceTree = "<group>"; };
 		24E49FCC1B55652000A0082C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -940,8 +940,8 @@
 		24E49F8D1B55601600A0082C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				24E49F8C1B55601600A0082C /* AppOne.app */,
-				24E49FA81B55601600A0082C /* AppOneTests.xctest */,
+				24E49F8C1B55601600A0082C /* BaseProject.app */,
+				24E49FA81B55601600A0082C /* BaseProject.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -979,7 +979,7 @@
 				24E49FD51B55652000A0082C /* Info.plist */,
 				248EDEB41C46324E00B45457 /* libUMCheckUpdate.a */,
 				24E49FD61B55652000A0082C /* main.m */,
-				2463CF8F1B577F7D0031B5C2 /* AppOne.pch */,
+				2463CF8F1B577F7D0031B5C2 /* BaseProject.pch */,
 			);
 			path = AppOne;
 			sourceTree = "<group>";
@@ -1079,9 +1079,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		24E49F8B1B55601600A0082C /* AppOne */ = {
+		24E49F8B1B55601600A0082C /* BaseProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 24E49FB21B55601600A0082C /* Build configuration list for PBXNativeTarget "AppOne" */;
+			buildConfigurationList = 24E49FB21B55601600A0082C /* Build configuration list for PBXNativeTarget "BaseProject" */;
 			buildPhases = (
 				CFB10B087FF22B6F01295DA6 /* Check Pods Manifest.lock */,
 				24E49F881B55601600A0082C /* Sources */,
@@ -1093,14 +1093,14 @@
 			);
 			dependencies = (
 			);
-			name = AppOne;
+			name = BaseProject;
 			productName = AppOne;
-			productReference = 24E49F8C1B55601600A0082C /* AppOne.app */;
+			productReference = 24E49F8C1B55601600A0082C /* BaseProject.app */;
 			productType = "com.apple.product-type.application";
 		};
-		24E49FA71B55601600A0082C /* AppOneTests */ = {
+		24E49FA71B55601600A0082C /* BaseProjectTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 24E49FB51B55601600A0082C /* Build configuration list for PBXNativeTarget "AppOneTests" */;
+			buildConfigurationList = 24E49FB51B55601600A0082C /* Build configuration list for PBXNativeTarget "BaseProjectTests" */;
 			buildPhases = (
 				24E49FA41B55601600A0082C /* Sources */,
 				24E49FA51B55601600A0082C /* Frameworks */,
@@ -1111,9 +1111,9 @@
 			dependencies = (
 				24E49FAA1B55601600A0082C /* PBXTargetDependency */,
 			);
-			name = AppOneTests;
+			name = BaseProjectTests;
 			productName = AppOneTests;
-			productReference = 24E49FA81B55601600A0082C /* AppOneTests.xctest */;
+			productReference = 24E49FA81B55601600A0082C /* BaseProject.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -1134,7 +1134,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 24E49F871B55601600A0082C /* Build configuration list for PBXProject "AppOne" */;
+			buildConfigurationList = 24E49F871B55601600A0082C /* Build configuration list for PBXProject "BaseProject" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -1147,8 +1147,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				24E49F8B1B55601600A0082C /* AppOne */,
-				24E49FA71B55601600A0082C /* AppOneTests */,
+				24E49F8B1B55601600A0082C /* BaseProject */,
+				24E49FA71B55601600A0082C /* BaseProjectTests */,
 			);
 		};
 /* End PBXProject section */
@@ -1333,7 +1333,7 @@
 /* Begin PBXTargetDependency section */
 		24E49FAA1B55601600A0082C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 24E49F8B1B55601600A0082C /* AppOne */;
+			target = 24E49F8B1B55601600A0082C /* BaseProject */;
 			targetProxy = 24E49FA91B55601600A0082C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1454,7 +1454,7 @@
 					"$(PROJECT_DIR)/AppOne/UMCheckUpdate",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.english;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BaseProject;
 				PROVISIONING_PROFILE = "f5f4e51d-6681-47bb-aa41-77273d9c270e";
 			};
 			name = Debug;
@@ -1479,7 +1479,7 @@
 					"$(PROJECT_DIR)/AppOne/UMCheckUpdate",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.english;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BaseProject;
 				PROVISIONING_PROFILE = "f5f4e51d-6681-47bb-aa41-77273d9c270e";
 			};
 			name = Release;
@@ -1499,8 +1499,8 @@
 				INFOPLIST_FILE = AppOneTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cmbc.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppOne.app/AppOne";
+				PRODUCT_NAME = BaseProject;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BaseProject.app/BaseProject";
 			};
 			name = Debug;
 		};
@@ -1515,15 +1515,15 @@
 				INFOPLIST_FILE = AppOneTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cmbc.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppOne.app/AppOne";
+				PRODUCT_NAME = BaseProject;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BaseProject.app/BaseProject";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		24E49F871B55601600A0082C /* Build configuration list for PBXProject "AppOne" */ = {
+		24E49F871B55601600A0082C /* Build configuration list for PBXProject "BaseProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				24E49FB01B55601600A0082C /* Debug */,
@@ -1532,7 +1532,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		24E49FB21B55601600A0082C /* Build configuration list for PBXNativeTarget "AppOne" */ = {
+		24E49FB21B55601600A0082C /* Build configuration list for PBXNativeTarget "BaseProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				24E49FB31B55601600A0082C /* Debug */,
@@ -1541,7 +1541,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		24E49FB51B55601600A0082C /* Build configuration list for PBXNativeTarget "AppOneTests" */ = {
+		24E49FB51B55601600A0082C /* Build configuration list for PBXNativeTarget "BaseProjectTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				24E49FB61B55601600A0082C /* Debug */,
