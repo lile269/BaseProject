@@ -1,0 +1,5 @@
+#include "Pods-MZTimerLabel.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Build" "${PODS_ROOT}/Headers/Build/MZTimerLabel" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFDownloadRequestOperation" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/DZNEmptyDataSet" "${PODS_ROOT}/Headers/Public/FontAwesomeKit" "${PODS_ROOT}/Headers/Public/JSONKit-NoWarning" "${PODS_ROOT}/Headers/Public/MBProgressHUD" "${PODS_ROOT}/Headers/Public/MJRefresh" "${PODS_ROOT}/Headers/Public/MZTimerLabel" "${PODS_ROOT}/Headers/Public/Reachability" "${PODS_ROOT}/Headers/Public/UMengAnalytics-NO-IDFA" "${PODS_ROOT}/Headers/Public/YTKNetwork" "${PODS_ROOT}/Headers/Public/jastor"
+OTHER_LDFLAGS = -ObjC
+PODS_ROOT = ${SRCROOT}

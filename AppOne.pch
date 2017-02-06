@@ -1,0 +1,60 @@
+//
+//  AppOne.pch
+//  AppOne
+//
+//  Created by lile on 15/7/16.
+//  Copyright (c) 2015年 lile. All rights reserved.
+//
+
+#ifndef AppOne_AppOne_pch
+#define AppOne_AppOne_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "AFHTTPRequestOperation.h"
+#import "MSZXNetwork.h"
+#import "XBToastManager.h"
+#import "CommonData.h"
+#import "UIColor+hexColor.h"
+#import "FontAwesomeKit/FontAwesomeKit.h"
+#import "UIScrollView+EmptyDataSet.h"
+#import  "XBBaseVC.h"
+#import "OneBaseVC.h"
+#import  "NSString+MD5.h"
+#import "NSString+Size.h"
+#import "UIImage+RenderedImage.h"
+#import "SetDevieceUUID.h"
+#import "TabMainVC.h"
+#import "TabPersonInfoVC.h"
+#import "TabFarvoriteVC.h"
+#import "LaunchViewController.h"
+
+#define kLoginUsername @"kLoginUsername"
+#define kLoginUserpwd  @"kLoginUserpwd"
+#define kSavePwd       @"kSavePwd"
+#define kToken         @"kToken"
+
+
+#define mainHeight     [[UIScreen mainScreen] bounds].size.height
+#define mainWidth      [[UIScreen mainScreen] bounds].size.width
+#define heightRation   [[UIScreen mainScreen] bounds].size.height/667
+#define widthRation    [[UIScreen mainScreen] bounds].size.width/375
+
+#define navBarHeight   self.navigationController.navigationBar.frame.size.height
+
+#define mainColor                   [UIColor hexFloatColor:@"cd0000"]
+
+// bg related
+#define BG_COLOR                    RGB(248,248,248)
+#define BG_GRAY_COLOR               RGB(242,242,242)
+//#define NAVBAR_COLOR                [UIColor hexFloatColor:@"f68e49"]
+
+#define NAVBAR_COLOR                [UIColor hexFloatColor:@"00aeee"]
+
+#define TABBAR_TEXT_NOR_COLOR       RGB(153, 153, 153)
+#define TABBAR_TEXT_HLT_COLOR       mainColor
+
+#define MAXFLOAT    0x1.fffffep+127f
+
+#endif

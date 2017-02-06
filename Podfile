@@ -1,0 +1,12 @@
+platform:ios, '7.0'
+pod 'JSONKit-NoWarning', '~> 1.2'
+pod 'MBProgressHUD', '~> 0.9.1'
+pod 'Reachability',  '~> 3.2'
+pod 'jastor', '~> 0.2.1'
+pod 'YTKNetwork', '~> 0.5.0'
+pod 'MZTimerLabel'
+pod 'DZNEmptyDataSet'
+pod 'FontAwesomeKit'
+pod 'MJRefresh'
+pod 'UMengAnalytics-NO-IDFA'
+

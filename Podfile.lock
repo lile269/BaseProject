@@ -1,0 +1,78 @@
+PODS:
+  - AFDownloadRequestOperation (2.0.1):
+    - AFNetworking (~> 2.0)
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - DZNEmptyDataSet (1.7.3)
+  - FontAwesomeKit (2.2.0):
+    - FontAwesomeKit/Core (= 2.2.0)
+    - FontAwesomeKit/FontAwesome (= 2.2.0)
+    - FontAwesomeKit/FoundationIcons (= 2.2.0)
+    - FontAwesomeKit/IonIcons (= 2.2.0)
+    - FontAwesomeKit/Zocial (= 2.2.0)
+  - FontAwesomeKit/Core (2.2.0)
+  - FontAwesomeKit/FontAwesome (2.2.0):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/FoundationIcons (2.2.0):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/IonIcons (2.2.0):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/Zocial (2.2.0):
+    - FontAwesomeKit/Core
+  - jastor (0.2.1)
+  - JSONKit-NoWarning (1.2)
+  - MBProgressHUD (0.9.2)
+  - MJRefresh (3.1.0)
+  - MZTimerLabel (0.5.4)
+  - Reachability (3.2)
+  - UMengAnalytics-NO-IDFA (3.6.7)
+  - YTKNetwork (0.5.0):
+    - AFDownloadRequestOperation (~> 2.0)
+    - AFNetworking (~> 2.0)
+
+DEPENDENCIES:
+  - DZNEmptyDataSet
+  - FontAwesomeKit
+  - jastor (~> 0.2.1)
+  - JSONKit-NoWarning (~> 1.2)
+  - MBProgressHUD (~> 0.9.1)
+  - MJRefresh
+  - MZTimerLabel
+  - Reachability (~> 3.2)
+  - UMengAnalytics-NO-IDFA
+  - YTKNetwork (~> 0.5.0)
+
+SPEC CHECKSUMS:
+  AFDownloadRequestOperation: 748a1643423e1ddb23f2178f778087d4f0ae8ac7
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  DZNEmptyDataSet: dd7cca17c1d07dfa78956859b1e70a52505678ef
+  FontAwesomeKit: 025fd4dd1017fe4e3f8d47b03e024deedbb33cd4
+  jastor: fe9ff71f4b683698253d6a0d9a2561987fd9aff3
+  JSONKit-NoWarning: 3d27e6f9e6846ecf741e8c64dcadd7d5aa7193cb
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
+  MZTimerLabel: cd9bfb9304540ef2a9e163384fca9c978f0dbf83
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  UMengAnalytics-NO-IDFA: 6d02561a00579b2e37718f204eb81347df5d7b8b
+  YTKNetwork: 3f163c181ce5f03d52cf88f39d6757f46894280c
+
+COCOAPODS: 0.35.0

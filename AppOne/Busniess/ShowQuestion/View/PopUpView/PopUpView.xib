@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="PopUpView">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jba-4O-EUQ">
+                    <rect key="frame" x="276" y="107" width="51" height="31"/>
+                </switch>
+                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="O8d-hp-5Zl">
+                    <rect key="frame" x="241" y="190" width="118" height="31"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="114" id="xvz-Kc-CBL"/>
+                    </constraints>
+                </slider>
+                <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="FkQ-P3-WSY">
+                    <rect key="frame" x="253" y="270" width="94" height="29"/>
+                </stepper>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="FkQ-P3-WSY" secondAttribute="centerX" id="1CB-z8-KJw"/>
+                <constraint firstItem="Jba-4O-EUQ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="107" id="S3a-0A-A55"/>
+                <constraint firstAttribute="centerX" secondItem="Jba-4O-EUQ" secondAttribute="centerX" id="V1t-nd-L9h"/>
+                <constraint firstAttribute="centerX" secondItem="O8d-hp-5Zl" secondAttribute="centerX" id="aYb-ix-fxO"/>
+                <constraint firstItem="FkQ-P3-WSY" firstAttribute="top" secondItem="O8d-hp-5Zl" secondAttribute="bottom" constant="50" id="eiA-Bp-yQA"/>
+                <constraint firstItem="O8d-hp-5Zl" firstAttribute="top" secondItem="Jba-4O-EUQ" secondAttribute="bottom" constant="52" id="myb-LR-HAX"/>
+            </constraints>
+            <point key="canvasLocation" x="561" y="363"/>
+        </view>
+    </objects>
+</document>
